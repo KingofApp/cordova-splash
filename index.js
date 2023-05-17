@@ -74,7 +74,14 @@ var getPlatforms = function (projectName) {
       { name: 'drawable-port-hdpi/screen.png',  width: 480,  height: 800  },
       { name: 'drawable-port-xhdpi/screen.png', width: 720,  height: 1280 },
       { name: 'drawable-port-xxhdpi/screen.png', width: 960, height: 1600  },
-      { name: 'drawable-port-xxxhdpi/screen.png', width: 1280, height: 1920  }
+      { name: 'drawable-port-xxxhdpi/screen.png', width: 1280, height: 1920  },
+      //custom
+      { name: 'drawable-hdpi-v4/ic_cdv_splashscreen.png', width:768 , height:768 },
+      { name: 'drawable-ldpi-v4/ic_cdv_splashscreen.png', width:384 , height:384 },
+      { name: 'drawable-mdpi-v4/ic_cdv_splashscreen.png', width:512 , height:512 },
+      { name: 'drawable-xhdpi-v4/ic_cdv_splashscreen.png', width:1024 , height:1024 },
+      { name: 'drawable-xxhdpi-v4/ic_cdv_splashscreen.png', width:1536 , height:1536 },
+      { name: 'drawable-xxxhdpi-v4/ic_cdv_splashscreen.png', width:2048 , height:2048 }
     ]
   });
   platforms.push({
